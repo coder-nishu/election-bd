@@ -1,15 +1,27 @@
 // src/services/firebase.js
 import { initializeApp } from "firebase/app";
-import { getFirestore, doc, setDoc, getDoc, onSnapshot, increment, updateDoc, collection, query, where, getDocs } from "firebase/firestore";
+import {
+  getFirestore,
+  doc,
+  setDoc,
+  getDoc,
+  onSnapshot,
+  increment,
+  updateDoc,
+  collection,
+  query,
+  where,
+  getDocs
+} from "firebase/firestore";
 
-// Your web app's Firebase configuration
+// Firebase configuration using .env
 const firebaseConfig = {
-  apiKey: "AIzaSyDfkR25VHMfwwLT2iB9p7DOjBfCkw6EwYY",
-  authDomain: "election-prediction-bd.firebaseapp.com",
-  projectId: "election-prediction-bd",
-  storageBucket: "election-prediction-bd.firebasestorage.app",
-  messagingSenderId: "930113825750",
-  appId: "1:930113825750:web:26c045534c8685bd741277"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID
 };
 
 // Initialize Firebase
@@ -18,5 +30,17 @@ const app = initializeApp(firebaseConfig);
 // Initialize Firestore
 const db = getFirestore(app);
 
-// Export database and functions
-export { db, doc, setDoc, getDoc, onSnapshot, increment, updateDoc, collection, query, where, getDocs };
+// Export db and Firestore helpers
+export {
+  db,
+  doc,
+  setDoc,
+  getDoc,
+  onSnapshot,
+  increment,
+  updateDoc,
+  collection,
+  query,
+  where,
+  getDocs
+};

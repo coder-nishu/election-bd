@@ -16,7 +16,6 @@ function App() {
   const [votes, setVotes] = useState({});
   const [votedConstituencies, setVotedConstituencies] = useState([]);
   const [expandedRow, setExpandedRow] = useState(null); // Track which row is expanded
-  
   // Device fingerprinting for vote protection
   const { visitorId, loading: fingerprintLoading } = useFingerprint();
 
