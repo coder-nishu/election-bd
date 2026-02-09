@@ -1,0 +1,156 @@
+{
+  "election": "National Parliament Election 2026",
+  "region": "Dhaka",
+  "constituencies": [
+    {
+      "id": "dhaka-1",
+      "name": "Dhaka-1",
+      "candidates": [
+        { "id": "d1-c1", "name": "Candidate A", "party": "BNP", "symbol": "🌾" },
+        { "id": "d1-c2", "name": "Candidate B", "party": "Jamaat", "symbol": "⚖️" },
+        { "id": "d1-c3", "name": "Candidate C", "party": "NCP", "symbol": "🌸" },
+        { "id": "d1-c4", "name": "Candidate D", "party": "Independent", "symbol": "🟢" }
+      ]
+    },
+    {
+      "id": "dhaka-2",
+      "name": "Dhaka-2",
+      "candidates": [
+        { "id": "d2-c1", "name": "Candidate A", "party": "BNP", "symbol": "🌾" },
+        { "id": "d2-c2", "name": "Candidate B", "party": "Jamaat", "symbol": "⚖️" },
+        { "id": "d2-c3", "name": "Candidate C", "party": "NCP", "symbol": "🌸" },
+        { "id": "d2-c4", "name": "Candidate D", "party": "Independent", "symbol": "🟢" }
+      ]
+    },
+    {
+      "id": "dhaka-3",
+      "name": "Dhaka-3",
+      "candidates": [
+        { "id": "d3-c1", "name": "Candidate A", "party": "BNP", "symbol": "🌾" },
+        { "id": "d3-c2", "name": "Candidate B", "party": "Jamaat", "symbol": "⚖️" },
+        { "id": "d3-c3", "name": "Candidate C", "party": "NCP", "symbol": "🌸" },
+        { "id": "d3-c4", "name": "Candidate D", "party": "Independent", "symbol": "🟢" }
+      ]
+    },
+    {
+      "id": "dhaka-4",
+      "name": "Dhaka-4",
+      "candidates": [
+        { "id": "d4-c1", "name": "Candidate A", "party": "BNP", "symbol": "🌾" },
+        { "id": "d4-c2", "name": "Candidate B", "party": "Jamaat", "symbol": "⚖️" },
+        { "id": "d4-c3", "name": "Candidate C", "party": "NCP", "symbol": "🌸" },
+        { "id": "d4-c4", "name": "Candidate D", "party": "Independent", "symbol": "🟢" }
+      ]
+    },
+    {
+      "id": "dhaka-5",
+      "name": "Dhaka-5",
+      "candidates": [
+        { "id": "d5-c1", "name": "Candidate A", "party": "BNP", "symbol": "🌾" },
+        { "id": "d5-c2", "name": "Candidate B", "party": "Jamaat", "symbol": "⚖️" },
+        { "id": "d5-c3", "name": "Candidate C", "party": "NCP", "symbol": "🌸" },
+        { "id": "d5-c4", "name": "Candidate D", "party": "Independent", "symbol": "🟢" }
+      ]
+    },
+    {
+      "id": "dhaka-6",
+      "name": "Dhaka-6",
+      "candidates": [
+        { "id": "d6-c1", "name": "Candidate A", "party": "BNP", "symbol": "🌾" },
+        { "id": "d6-c2", "name": "Candidate B", "party": "Jamaat", "symbol": "⚖️" },
+        { "id": "d6-c3", "name": "Candidate C", "party": "NCP", "symbol": "🌸" },
+        { "id": "d6-c4", "name": "Candidate D", "party": "Independent", "symbol": "🟢" }
+      ]
+    },
+    {
+      "id": "dhaka-7",
+      "name": "Dhaka-7",
+      "candidates": [
+        { "id": "d7-c1", "name": "Candidate A", "party": "BNP", "symbol": "🌾" },
+        { "id": "d7-c2", "name": "Candidate B", "party": "Jamaat", "symbol": "⚖️" },
+        { "id": "d7-c3", "name": "Candidate C", "party": "NCP", "symbol": "🌸" },
+        { "id": "d7-c4", "name": "Candidate D", "party": "Independent", "symbol": "🟢" }
+      ]
+    },
+    {
+      "id": "dhaka-8",
+      "name": "Dhaka-8",
+      "candidates": [
+        { "id": "d8-c1", "name": "Candidate A", "party": "BNP", "symbol": "🌾" },
+        { "id": "d8-c2", "name": "Candidate B", "party": "Jamaat", "symbol": "⚖️" },
+        { "id": "d8-c3", "name": "Candidate C", "party": "NCP", "symbol": "🌸" },
+        { "id": "d8-c4", "name": "Candidate D", "party": "Independent", "symbol": "🟢" }
+      ]
+    },
+    {
+      "id": "dhaka-9",
+      "name": "Dhaka-9",
+      "candidates": [
+        { "id": "d9-c1", "name": "Candidate A", "party": "BNP", "symbol": "🌾" },
+        { "id": "d9-c2", "name": "Candidate B", "party": "Jamaat", "symbol": "⚖️" },
+        { "id": "d9-c3", "name": "Candidate C", "party": "NCP", "symbol": "🌸" },
+        { "id": "d9-c4", "name": "Candidate D", "party": "Independent", "symbol": "🟢" }
+      ]
+    },
+    {
+      "id": "dhaka-10",
+      "name": "Dhaka-10",
+      "candidates": [
+        { "id": "d10-c1", "name": "Candidate A", "party": "BNP", "symbol": "🌾" },
+        { "id": "d10-c2", "name": "Candidate B", "party": "Jamaat", "symbol": "⚖️" },
+        { "id": "d10-c3", "name": "Candidate C", "party": "NCP", "symbol": "🌸" },
+        { "id": "d10-c4", "name": "Candidate D", "party": "Independent", "symbol": "🟢" }
+      ]
+    },
+    {
+      "id": "dhaka-11",
+      "name": "Dhaka-11",
+      "candidates": [
+        { "id": "d11-c1", "name": "Candidate A", "party": "BNP", "symbol": "🌾" },
+        { "id": "d11-c2", "name": "Candidate B", "party": "Jamaat", "symbol": "⚖️" },
+        { "id": "d11-c3", "name": "Candidate C", "party": "NCP", "symbol": "🌸" },
+        { "id": "d11-c4", "name": "Candidate D", "party": "Independent", "symbol": "🟢" }
+      ]
+    },
+    {
+      "id": "dhaka-12",
+      "name": "Dhaka-12",
+      "candidates": [
+        { "id": "d12-c1", "name": "Candidate A", "party": "BNP", "symbol": "🌾" },
+        { "id": "d12-c2", "name": "Candidate B", "party": "Jamaat", "symbol": "⚖️" },
+        { "id": "d12-c3", "name": "Candidate C", "party": "NCP", "symbol": "🌸" },
+        { "id": "d12-c4", "name": "Candidate D", "party": "Independent", "symbol": "🟢" }
+      ]
+    },
+    {
+      "id": "dhaka-13",
+      "name": "Dhaka-13",
+      "candidates": [
+        { "id": "d13-c1", "name": "Candidate A", "party": "BNP", "symbol": "🌾" },
+        { "id": "d13-c2", "name": "Candidate B", "party": "Jamaat", "symbol": "⚖️" },
+        { "id": "d13-c3", "name": "Candidate C", "party": "NCP", "symbol": "🌸" },
+        { "id": "d13-c4", "name": "Candidate D", "party": "Independent", "symbol": "🟢" }
+      ]
+    },
+    {
+      "id": "dhaka-14",
+      "name": "Dhaka-14",
+      "candidates": [
+        { "id": "d14-c1", "name": "Candidate A", "party": "BNP", "symbol": "🌾" },
+        { "id": "d14-c2", "name": "Candidate B", "party": "Jamaat", "symbol": "⚖️" },
+        { "id": "d14-c3", "name": "Candidate C", "party": "NCP", "symbol": "🌸" },
+        { "id": "d14-c4", "name": "Candidate D", "party": "Independent", "symbol": "🟢" }
+      ]
+    },
+    {
+      "id": "dhaka-15",
+      "name": "Dhaka-15",
+      "candidates": [
+        { "id": "d15-c1", "name": "Candidate A", "party": "BNP", "symbol": "🌾" },
+        { "id": "d15-c2", "name": "Candidate B", "party": "Jamaat", "symbol": "⚖️" },
+        { "id": "d15-c3", "name": "Candidate C", "party": "NCP", "symbol": "🌸" },
+        { "id": "d15-c4", "name": "Candidate D", "party": "Independent", "symbol": "🟢" }
+      ]
+    }
+  ]
+}
