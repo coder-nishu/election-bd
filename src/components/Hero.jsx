@@ -86,7 +86,7 @@ const Hero = () => {
           <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-lg px-4 py-2">
             <span className="text-2xl">🗳️</span>
             <div className="text-left">
-              <p className="text-white font-bold text-lg">১৫</p>
+              <p className="text-white font-bold text-lg">২০</p>
               <p className="text-emerald-200 text-xs">আসন</p>
             </div>
           </div>

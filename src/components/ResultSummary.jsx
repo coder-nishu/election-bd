@@ -64,7 +64,7 @@ const ResultSummary = ({ constituencies, allVotes }) => {
         <div className="bg-gradient-to-r from-emerald-600 to-emerald-700 rounded-2xl p-6 md:p-8 text-center mb-10 shadow-xl">
           <p className="text-emerald-200 text-lg mb-2">মোট ডেমো ভোট</p>
           <p className="text-5xl md:text-6xl font-bold text-white mb-2">{totalVotes}</p>
-          <p className="text-emerald-200">১৫টি আসন থেকে</p>
+          <p className="text-emerald-200">২০টি আসন থেকে</p>
         </div>
 
         {/* Party-wise Results */}

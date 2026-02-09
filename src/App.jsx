@@ -144,6 +144,29 @@ function App() {
       {/* Hero Banner with Countdown */}
       <Hero />
 
+      {/* How to Vote Guide */}
+      <section className="bg-white border-b border-gray-100">
+        <div className="container mx-auto px-4 py-5">
+          <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10 text-sm text-gray-600">
+            <p className="font-semibold text-emerald-700 text-base">কিভাবে ভোট দিবেন?</p>
+            <div className="flex items-center gap-2">
+              <span className="w-6 h-6 bg-emerald-600 text-white rounded-full flex items-center justify-center text-xs font-bold">১</span>
+              <span>আসন নির্বাচন করুন</span>
+            </div>
+            <span className="hidden md:inline text-gray-300">→</span>
+            <div className="flex items-center gap-2">
+              <span className="w-6 h-6 bg-emerald-600 text-white rounded-full flex items-center justify-center text-xs font-bold">২</span>
+              <span>"ভোট দিন" বাটনে ক্লিক করুন</span>
+            </div>
+            <span className="hidden md:inline text-gray-300">→</span>
+            <div className="flex items-center gap-2">
+              <span className="w-6 h-6 bg-emerald-600 text-white rounded-full flex items-center justify-center text-xs font-bold">৩</span>
+              <span>প্রার্থী বেছে নিশ্চিত করুন</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Constituency Cards Section */}
       <section id="constituencies" className="py-12 md:py-16 bg-emerald-50">
         <div className="container mx-auto px-4">
@@ -156,7 +179,7 @@ function App() {
               নির্বাচনী আসনসমূহ
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              ঢাকা-১ থেকে ঢাকা-১৫ পর্যন্ত সকল আসনের প্রার্থী তালিকা দেখুন এবং ডেমো ভোট দিন
+              ঢাকা-১ থেকে ঢাকা-২০ পর্যন্ত সকল আসনের প্রার্থী তালিকা দেখুন এবং ডেমো ভোট দিন
             </p>
           </div>
 

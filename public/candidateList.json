@@ -6,150 +6,193 @@
       "id": "dhaka-1",
       "name": "Dhaka-1",
       "candidates": [
-        { "id": "d1-c1", "name": "Candidate A", "party": "BNP", "symbol": "🌾" },
-        { "id": "d1-c2", "name": "Candidate B", "party": "Jamaat", "symbol": "⚖️" },
-        { "id": "d1-c3", "name": "Candidate C", "party": "NCP", "symbol": "🌸" },
-        { "id": "d1-c4", "name": "Candidate D", "party": "Independent", "symbol": "🟢" }
+        { "id": "d1-bnp", "name": "খন্দকার আবু আশফাক", "party": "BNP", "symbol": "🌾" },
+        { "id": "d1-jamaat", "name": "মোহাম্মদ নজরুল ইসলাম", "party": "Jamaat-e-Islami", "symbol": "⚖️" },
+        { "id": "d1-jp", "name": "মোঃ নাছির উদ্দিন মোল্টা", "party": "Jatiya Party", "symbol": "🕯️" }
       ]
     },
     {
       "id": "dhaka-2",
       "name": "Dhaka-2",
       "candidates": [
-        { "id": "d2-c1", "name": "Candidate A", "party": "BNP", "symbol": "🌾" },
-        { "id": "d2-c2", "name": "Candidate B", "party": "Jamaat", "symbol": "⚖️" },
-        { "id": "d2-c3", "name": "Candidate C", "party": "NCP", "symbol": "🌸" },
-        { "id": "d2-c4", "name": "Candidate D", "party": "Independent", "symbol": "🟢" }
+        { "id": "d2-bnp", "name": "আমানউল্লাহ আমান", "party": "BNP", "symbol": "🌾" },
+        { "id": "d2-jamaat", "name": "আবদুল হক", "party": "Jamaat-e-Islami", "symbol": "⚖️" },
+        { "id": "d2-iab", "name": "মুফতি জহিরুল ইসলাম", "party": "Islami Andolan Bangladesh", "symbol": "🟢" }
       ]
     },
     {
       "id": "dhaka-3",
       "name": "Dhaka-3",
       "candidates": [
-        { "id": "d3-c1", "name": "Candidate A", "party": "BNP", "symbol": "🌾" },
-        { "id": "d3-c2", "name": "Candidate B", "party": "Jamaat", "symbol": "⚖️" },
-        { "id": "d3-c3", "name": "Candidate C", "party": "NCP", "symbol": "🌸" },
-        { "id": "d3-c4", "name": "Candidate D", "party": "Independent", "symbol": "🟢" }
+        { "id": "d3-bnp", "name": "গয়েশ্বর চন্দ্র রায়", "party": "BNP", "symbol": "🌾" },
+        { "id": "d3-jamaat", "name": "মোঃ শাহিনুর ইসলাম", "party": "Jamaat-e-Islami", "symbol": "⚖️" },
+        { "id": "d3-jp", "name": "মোঃ ফারুক", "party": "Jatiya Party", "symbol": "🕯️" },
+        { "id": "d3-iab", "name": "সুলতান আহমদ খাঁন", "party": "Islami Andolan Bangladesh", "symbol": "🟢" }
       ]
     },
     {
       "id": "dhaka-4",
       "name": "Dhaka-4",
       "candidates": [
-        { "id": "d4-c1", "name": "Candidate A", "party": "BNP", "symbol": "🌾" },
-        { "id": "d4-c2", "name": "Candidate B", "party": "Jamaat", "symbol": "⚖️" },
-        { "id": "d4-c3", "name": "Candidate C", "party": "NCP", "symbol": "🌸" },
-        { "id": "d4-c4", "name": "Candidate D", "party": "Independent", "symbol": "🟢" }
+        { "id": "d4-bnp", "name": "তানভীর আহমেদ রবিন", "party": "BNP", "symbol": "🌾" },
+        { "id": "d4-jamaat", "name": "সৈয়দ জয়নুল আবেদীন", "party": "Jamaat-e-Islami", "symbol": "⚖️" },
+        { "id": "d4-iab", "name": "সৈয়দ মোসাদ্দেক বিল্লাহ আন মাদানী", "party": "Islami Andolan Bangladesh", "symbol": "🟢" }
       ]
     },
     {
       "id": "dhaka-5",
       "name": "Dhaka-5",
       "candidates": [
-        { "id": "d5-c1", "name": "Candidate A", "party": "BNP", "symbol": "🌾" },
-        { "id": "d5-c2", "name": "Candidate B", "party": "Jamaat", "symbol": "⚖️" },
-        { "id": "d5-c3", "name": "Candidate C", "party": "NCP", "symbol": "🌸" },
-        { "id": "d5-c4", "name": "Candidate D", "party": "Independent", "symbol": "🟢" }
+        { "id": "d5-bnp", "name": "নবী উল্লাহ নবী", "party": "BNP", "symbol": "🌾" },
+        { "id": "d5-jamaat", "name": "মোঃ কামাল হোসেন", "party": "Jamaat-e-Islami", "symbol": "⚖️" },
+        { "id": "d5-jp", "name": "মীর আব্দুস সবুর আসুদ", "party": "Jatiya Party", "symbol": "🕯️" },
+        { "id": "d5-iab", "name": "মোঃ ইবরাহীম খলিল", "party": "Islami Andolan Bangladesh", "symbol": "🟢" }
       ]
     },
     {
       "id": "dhaka-6",
       "name": "Dhaka-6",
       "candidates": [
-        { "id": "d6-c1", "name": "Candidate A", "party": "BNP", "symbol": "🌾" },
-        { "id": "d6-c2", "name": "Candidate B", "party": "Jamaat", "symbol": "⚖️" },
-        { "id": "d6-c3", "name": "Candidate C", "party": "NCP", "symbol": "🌸" },
-        { "id": "d6-c4", "name": "Candidate D", "party": "Independent", "symbol": "🟢" }
+        { "id": "d6-bnp", "name": "ইশরাক হোসেন", "party": "BNP", "symbol": "🌾" },
+        { "id": "d6-jamaat", "name": "মোঃ আব্দুল মান্নান", "party": "Jamaat-e-Islami", "symbol": "⚖️" },
+        { "id": "d6-jp", "name": "আমির উদ্দিন আহমেদ ডালু", "party": "Jatiya Party", "symbol": "🕯️" },
+        { "id": "d6-iab", "name": "মোঃ আল আমিন", "party": "Islami Andolan Bangladesh", "symbol": "🟢" }
       ]
     },
     {
       "id": "dhaka-7",
       "name": "Dhaka-7",
       "candidates": [
-        { "id": "d7-c1", "name": "Candidate A", "party": "BNP", "symbol": "🌾" },
-        { "id": "d7-c2", "name": "Candidate B", "party": "Jamaat", "symbol": "⚖️" },
-        { "id": "d7-c3", "name": "Candidate C", "party": "NCP", "symbol": "🌸" },
-        { "id": "d7-c4", "name": "Candidate D", "party": "Independent", "symbol": "🟢" }
+        { "id": "d7-bnp", "name": "হামিদুর রহমান", "party": "BNP", "symbol": "🌾" },
+        { "id": "d7-jamaat", "name": "হাফেজ এনায়েতুল্লাহ", "party": "Jamaat-e-Islami", "symbol": "⚖️" },
+        { "id": "d7-jp", "name": "হাজী সাইফুদ্দিন আহমেদ মিলন", "party": "Jatiya Party", "symbol": "🕯️" },
+        { "id": "d7-iab", "name": "আব্দুর রহমান", "party": "Islami Andolan Bangladesh", "symbol": "🟢" }
       ]
     },
     {
       "id": "dhaka-8",
       "name": "Dhaka-8",
       "candidates": [
-        { "id": "d8-c1", "name": "Candidate A", "party": "BNP", "symbol": "🌾" },
-        { "id": "d8-c2", "name": "Candidate B", "party": "Jamaat", "symbol": "⚖️" },
-        { "id": "d8-c3", "name": "Candidate C", "party": "NCP", "symbol": "🌸" },
-        { "id": "d8-c4", "name": "Candidate D", "party": "Independent", "symbol": "🟢" }
+        { "id": "d8-bnp", "name": "মির্জা আব্বাস", "party": "BNP", "symbol": "🌾" },
+        { "id": "d8-ncp", "name": "নাসীরুদ্দীন পাটওয়ারী", "party": "NCP", "symbol": "🌸" },
+        { "id": "d8-jp", "name": "মোঃ জুবায়ের আলম খান রবিন", "party": "Jatiya Party", "symbol": "🕯️" },
+        { "id": "d8-iab", "name": "মুফতি কেফায়েতুল্লাহ কাশফী", "party": "Islami Andolan Bangladesh", "symbol": "🟢" }
       ]
     },
     {
       "id": "dhaka-9",
       "name": "Dhaka-9",
       "candidates": [
-        { "id": "d9-c1", "name": "Candidate A", "party": "BNP", "symbol": "🌾" },
-        { "id": "d9-c2", "name": "Candidate B", "party": "Jamaat", "symbol": "⚖️" },
-        { "id": "d9-c3", "name": "Candidate C", "party": "NCP", "symbol": "🌸" },
-        { "id": "d9-c4", "name": "Candidate D", "party": "Independent", "symbol": "🟢" }
+        { "id": "d9-bnp", "name": "হাবিবুর রশিদ", "party": "BNP", "symbol": "🌾" },
+        { "id": "d9-ncp", "name": "জাবেদ রাসিন", "party": "NCP", "symbol": "🌸" },
+        { "id": "d9-jp", "name": "কাজী আবুল খায়ের", "party": "Jatiya Party", "symbol": "🕯️" },
+        { "id": "d9-iab", "name": "শাহ ইফতেখার আহসান তারিক", "party": "Islami Andolan Bangladesh", "symbol": "🟢" }
       ]
     },
     {
       "id": "dhaka-10",
       "name": "Dhaka-10",
       "candidates": [
-        { "id": "d10-c1", "name": "Candidate A", "party": "BNP", "symbol": "🌾" },
-        { "id": "d10-c2", "name": "Candidate B", "party": "Jamaat", "symbol": "⚖️" },
-        { "id": "d10-c3", "name": "Candidate C", "party": "NCP", "symbol": "🌸" },
-        { "id": "d10-c4", "name": "Candidate D", "party": "Independent", "symbol": "🟢" }
+        { "id": "d10-bnp", "name": "শেখ রবিউল আলম", "party": "BNP", "symbol": "🌾" },
+        { "id": "d10-jamaat", "name": "জসিম উদ্দিন সরকার", "party": "Jamaat-e-Islami", "symbol": "⚖️" },
+        { "id": "d10-jp", "name": "রফিক রেজাবী", "party": "Jatiya Party", "symbol": "🕯️" },
+        { "id": "d10-iab", "name": "আব্দুল আউয়াল মজুমদার", "party": "Islami Andolan Bangladesh", "symbol": "🟢" }
       ]
     },
     {
       "id": "dhaka-11",
       "name": "Dhaka-11",
       "candidates": [
-        { "id": "d11-c1", "name": "Candidate A", "party": "BNP", "symbol": "🌾" },
-        { "id": "d11-c2", "name": "Candidate B", "party": "Jamaat", "symbol": "⚖️" },
-        { "id": "d11-c3", "name": "Candidate C", "party": "NCP", "symbol": "🌸" },
-        { "id": "d11-c4", "name": "Candidate D", "party": "Independent", "symbol": "🟢" }
+        { "id": "d11-bnp", "name": "ড. এম এ কায়ুম", "party": "BNP", "symbol": "🌾" },
+        { "id": "d11-ncp", "name": "নাহিদ ইসলাম", "party": "NCP", "symbol": "🌸" },
+        { "id": "d11-jp", "name": "শামীম আহমেদ রিজভী", "party": "Jatiya Party", "symbol": "🕯️" },
+        { "id": "d11-iab", "name": "শেখ ফজলে বারী মাসউদ", "party": "Islami Andolan Bangladesh", "symbol": "🟢" }
       ]
     },
     {
       "id": "dhaka-12",
       "name": "Dhaka-12",
       "candidates": [
-        { "id": "d12-c1", "name": "Candidate A", "party": "BNP", "symbol": "🌾" },
-        { "id": "d12-c2", "name": "Candidate B", "party": "Jamaat", "symbol": "⚖️" },
-        { "id": "d12-c3", "name": "Candidate C", "party": "NCP", "symbol": "🌸" },
-        { "id": "d12-c4", "name": "Candidate D", "party": "Independent", "symbol": "🟢" }
+        { "id": "d12-bwp", "name": "সাইফুল হক", "party": "Biplobi Workers Party", "symbol": "✊" },
+        { "id": "d12-jamaat", "name": "মোঃ সাইফুল আলম", "party": "Jamaat-e-Islami", "symbol": "⚖️" },
+        { "id": "d12-jp", "name": "মোহাম্মদ সালাউদ্দিন", "party": "Jatiya Party", "symbol": "🕯️" },
+        { "id": "d12-iab", "name": "মাহমুদুল হাসান মোমতাজী", "party": "Islami Andolan Bangladesh", "symbol": "🟢" }
       ]
     },
     {
       "id": "dhaka-13",
       "name": "Dhaka-13",
       "candidates": [
-        { "id": "d13-c1", "name": "Candidate A", "party": "BNP", "symbol": "🌾" },
-        { "id": "d13-c2", "name": "Candidate B", "party": "Jamaat", "symbol": "⚖️" },
-        { "id": "d13-c3", "name": "Candidate C", "party": "NCP", "symbol": "🌸" },
-        { "id": "d13-c4", "name": "Candidate D", "party": "Independent", "symbol": "🟢" }
+        { "id": "d13-bnp", "name": "ববি হাজ্জাজ", "party": "BNP", "symbol": "🌾" },
+        { "id": "d13-bkm", "name": "মামুনুল হক", "party": "Bangladesh Khelafat Majlish", "symbol": "🕌" }
       ]
     },
     {
       "id": "dhaka-14",
       "name": "Dhaka-14",
       "candidates": [
-        { "id": "d14-c1", "name": "Candidate A", "party": "BNP", "symbol": "🌾" },
-        { "id": "d14-c2", "name": "Candidate B", "party": "Jamaat", "symbol": "⚖️" },
-        { "id": "d14-c3", "name": "Candidate C", "party": "NCP", "symbol": "🌸" },
-        { "id": "d14-c4", "name": "Candidate D", "party": "Independent", "symbol": "🟢" }
+        { "id": "d14-bnp", "name": "সানজিদা ইসলাম তুলি", "party": "BNP", "symbol": "🌾" },
+        { "id": "d14-jamaat", "name": "মীর আহমদ বিন কাসেম", "party": "Jamaat-e-Islami", "symbol": "⚖️" },
+        { "id": "d14-jp", "name": "মোঃ হেলাল উদ্দিন", "party": "Jatiya Party", "symbol": "🕯️" },
+        { "id": "d14-iab", "name": "আবু ইউসুফ", "party": "Islami Andolan Bangladesh", "symbol": "🟢" }
       ]
     },
     {
       "id": "dhaka-15",
       "name": "Dhaka-15",
       "candidates": [
-        { "id": "d15-c1", "name": "Candidate A", "party": "BNP", "symbol": "🌾" },
-        { "id": "d15-c2", "name": "Candidate B", "party": "Jamaat", "symbol": "⚖️" },
-        { "id": "d15-c3", "name": "Candidate C", "party": "NCP", "symbol": "🌸" },
-        { "id": "d15-c4", "name": "Candidate D", "party": "Independent", "symbol": "🟢" }
+        { "id": "d15-bnp", "name": "সফিকুল ইসলাম মিল্টন", "party": "BNP", "symbol": "🌾" },
+        { "id": "d15-jamaat", "name": "ডাঃ শফিকুর রহমান", "party": "Jamaat-e-Islami", "symbol": "⚖️" },
+        { "id": "d15-jp", "name": "মোঃ শামসুল হক", "party": "Jatiya Party", "symbol": "🕯️" }
+      ]
+    },
+    {
+      "id": "dhaka-16",
+      "name": "Dhaka-16",
+      "candidates": [
+        { "id": "d16-bnp", "name": "আমিনুল হক", "party": "BNP", "symbol": "🌾" },
+        { "id": "d16-jamaat", "name": "মোঃ আব্দুল বাতেন", "party": "Jamaat-e-Islami", "symbol": "⚖️" },
+        { "id": "d16-jp", "name": "সুলতান আহমেদ সেলিম", "party": "Jatiya Party", "symbol": "🕯️" },
+        { "id": "d16-iab", "name": "মোঃ সাইফুল ইসলাম", "party": "Islami Andolan Bangladesh", "symbol": "🟢" }
+      ]
+    },
+    {
+      "id": "dhaka-17",
+      "name": "Dhaka-17",
+      "candidates": [
+        { "id": "d17-bnp", "name": "তারেক রহমান", "party": "BNP", "symbol": "🌾" },
+        { "id": "d17-jamaat", "name": "এস এম খালিদুজ্জামান", "party": "Jamaat-e-Islami", "symbol": "⚖️" },
+        { "id": "d17-jp", "name": "আতিক আহমেদ", "party": "Jatiya Party", "symbol": "🕯️" },
+        { "id": "d17-iab", "name": "মোহাম্মদ উল্লাহ আনসারী", "party": "Islami Andolan Bangladesh", "symbol": "🟢" }
+      ]
+    },
+    {
+      "id": "dhaka-18",
+      "name": "Dhaka-18",
+      "candidates": [
+        { "id": "d18-bnp", "name": "এস এম জাহাঙ্গীর হোসেন", "party": "BNP", "symbol": "🌾" },
+        { "id": "d18-ncp", "name": "আরিফুল ইসলাম", "party": "NCP", "symbol": "🌸" },
+        { "id": "d18-jp", "name": "মোঃ জাকির হোসেন", "party": "Jatiya Party", "symbol": "🕯️" },
+        { "id": "d18-iab", "name": "আনোয়ার হোসেন", "party": "Islami Andolan Bangladesh", "symbol": "🟢" }
+      ]
+    },
+    {
+      "id": "dhaka-19",
+      "name": "Dhaka-19",
+      "candidates": [
+        { "id": "d19-bnp", "name": "দেওয়ান মো. সালাউদ্দিন", "party": "BNP", "symbol": "🌾" },
+        { "id": "d19-ncp", "name": "দিলশানা পারুল", "party": "NCP", "symbol": "🌸" },
+        { "id": "d19-jp", "name": "মোঃ বাহাদুর ইসলাম", "party": "Jatiya Party", "symbol": "🕯️" },
+        { "id": "d19-iab", "name": "মুহাম্মদ ফারুক খান", "party": "Islami Andolan Bangladesh", "symbol": "🟢" }
+      ]
+    },
+    {
+      "id": "dhaka-20",
+      "name": "Dhaka-20",
+      "candidates": [
+        { "id": "d20-bnp", "name": "তমিজ উদ্দিন", "party": "BNP", "symbol": "🌾" },
+        { "id": "d20-ncp", "name": "নাবিলা তাসনিদ", "party": "NCP", "symbol": "🌸" },
+        { "id": "d20-jp", "name": "আহসান খান", "party": "Jatiya Party", "symbol": "🕯️" }
       ]
     }
   ]
