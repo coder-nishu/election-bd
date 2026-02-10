@@ -1,5 +1,22 @@
+// Distinct colors for candidate progress bars
+const BAR_COLORS = [
+  { bg: 'bg-emerald-500', border: 'border-emerald-200', bgLight: 'bg-emerald-50', text: 'text-emerald-700' },
+  { bg: 'bg-blue-500', border: 'border-blue-200', bgLight: 'bg-blue-50', text: 'text-blue-700' },
+  { bg: 'bg-orange-500', border: 'border-orange-200', bgLight: 'bg-orange-50', text: 'text-orange-700' },
+  { bg: 'bg-purple-500', border: 'border-purple-200', bgLight: 'bg-purple-50', text: 'text-purple-700' },
+  { bg: 'bg-rose-500', border: 'border-rose-200', bgLight: 'bg-rose-50', text: 'text-rose-700' },
+  { bg: 'bg-teal-500', border: 'border-teal-200', bgLight: 'bg-teal-50', text: 'text-teal-700' },
+  { bg: 'bg-amber-500', border: 'border-amber-200', bgLight: 'bg-amber-50', text: 'text-amber-700' },
+  { bg: 'bg-indigo-500', border: 'border-indigo-200', bgLight: 'bg-indigo-50', text: 'text-indigo-700' },
+];
+
 const ConstituencyCard = ({ constituency, onVote, votes, hasVoted, isExpanded, onToggle }) => {
-  const totalVotes = votes ? Object.values(votes).reduce((a, b) => a + b, 0) : 0;
+  // Exclude 'totalVotes' field from the sum since it's a separate tracker in Firestore
+  const totalVotes = votes 
+    ? Object.entries(votes)
+        .filter(([key]) => key !== 'totalVotes')
+        .reduce((a, [, b]) => a + b, 0) 
+    : 0;
   
   const getLeadingCandidate = () => {
     if (!votes || totalVotes === 0) return null;
@@ -78,16 +95,17 @@ const ConstituencyCard = ({ constituency, onVote, votes, hasVoted, isExpanded, o
 
           {/* Candidates List */}
           <div className="space-y-2 mb-4">
-            {constituency.candidates.map((candidate) => {
+            {constituency.candidates.map((candidate, idx) => {
               const candidateVotes = votes?.[candidate.id] || 0;
               const percentage = totalVotes > 0 ? ((candidateVotes / totalVotes) * 100).toFixed(1) : 0;
               const isLeading = leadingCandidate && leadingCandidate[0] === candidate.id;
+              const color = BAR_COLORS[idx % BAR_COLORS.length];
 
               return (
                 <div
                   key={candidate.id}
                   className={`relative rounded-lg p-3 transition ${
-                    isLeading && totalVotes > 0 ? 'bg-emerald-50 border border-emerald-200' : 'bg-gray-50 border border-transparent'
+                    isLeading && totalVotes > 0 ? `${color.bgLight} border ${color.border}` : 'bg-gray-50 border border-transparent'
                   }`}
                 >
                   <div className="flex items-center justify-between mb-1.5">
@@ -99,7 +117,7 @@ const ConstituencyCard = ({ constituency, onVote, votes, hasVoted, isExpanded, o
                       </div>
                     </div>
                     <div className="text-right">
-                      <p className="font-bold text-emerald-700 text-sm">{candidateVotes}</p>
+                      <p className={`font-bold text-sm ${color.text}`}>{candidateVotes}</p>
                       <p className="text-xs text-gray-400">{percentage}%</p>
                     </div>
                   </div>
@@ -107,15 +125,13 @@ const ConstituencyCard = ({ constituency, onVote, votes, hasVoted, isExpanded, o
                   {/* Progress Bar */}
                   <div className="h-1.5 bg-gray-200 rounded-full overflow-hidden">
                     <div
-                      className={`h-full rounded-full progress-bar ${
-                        isLeading && totalVotes > 0 ? 'bg-emerald-500' : 'bg-gray-300'
-                      }`}
+                      className={`h-full rounded-full progress-bar ${color.bg}`}
                       style={{ width: `${percentage}%` }}
                     />
                   </div>
                   
                   {isLeading && totalVotes > 0 && (
-                    <span className="absolute -top-1 -right-1 bg-emerald-500 text-white text-[10px] px-1.5 py-0.5 rounded-full">
+                    <span className={`absolute -top-1 -right-1 ${color.bg} text-white text-[10px] px-1.5 py-0.5 rounded-full`}>
                       এগিয়ে
                     </span>
                   )}

@@ -15,7 +15,7 @@ function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [votes, setVotes] = useState({});
   const [votedConstituencies, setVotedConstituencies] = useState([]);
-  const [expandedRow, setExpandedRow] = useState(null); // Track which row is expanded
+  const [expandedCard, setExpandedCard] = useState(null); // Track which individual card is expanded
   // Device fingerprinting for vote protection
   const { visitorId, loading: fingerprintLoading } = useFingerprint();
 
@@ -79,17 +79,9 @@ function App() {
     setIsModalOpen(true);
   };
 
-  // Handle row toggle - expand/collapse entire row
-  const handleRowToggle = (index) => {
-    // Calculate which row this card belongs to (3 cards per row)
-    const row = Math.floor(index / 3);
-    setExpandedRow(expandedRow === row ? null : row);
-  };
-
-  // Check if a card's row is expanded
-  const isRowExpanded = (index) => {
-    const row = Math.floor(index / 3);
-    return expandedRow === row;
+  // Handle individual card toggle - expand/collapse only the clicked card
+  const handleCardToggle = (index) => {
+    setExpandedCard(expandedCard === index ? null : index);
   };
 
   // Handle vote submission with Firebase - ONE VOTE ONLY
@@ -144,6 +136,20 @@ function App() {
       {/* Hero Banner with Countdown */}
       <Hero />
 
+      {/* See Results Button */}
+      <div className="bg-emerald-700 py-2">
+        <div className="container mx-auto px-4 flex items-center justify-center">
+          <a
+            href="#results"
+            className="inline-flex items-center gap-2 bg-white text-emerald-700 hover:bg-emerald-50 text-sm font-bold px-5 py-2 rounded-full transition-all hover:shadow-md"
+          >
+            <span>📊</span>
+            ফলাফল দেখুন
+            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
+          </a>
+        </div>
+      </div>
+
       {/* How to Vote Guide */}
       <section className="bg-white border-b border-gray-100">
         <div className="container mx-auto px-4 py-5">
@@ -192,8 +198,8 @@ function App() {
                 onVote={handleOpenVoteModal}
                 votes={votes[constituency.id]}
                 hasVoted={votedConstituencies.includes(constituency.id)}
-                isExpanded={isRowExpanded(index)}
-                onToggle={() => handleRowToggle(index)}
+                isExpanded={expandedCard === index}
+                onToggle={() => handleCardToggle(index)}
               />
             ))}
           </div>
@@ -201,10 +207,12 @@ function App() {
       </section>
 
       {/* Result Summary Section */}
-      <ResultSummary 
-        constituencies={constituencies}
-        allVotes={votes}
-      />
+      <div id="results">
+        <ResultSummary 
+          constituencies={constituencies}
+          allVotes={votes}
+        />
+      </div>
 
       {/* Footer */}
       <Footer />

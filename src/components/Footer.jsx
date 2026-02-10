@@ -70,6 +70,17 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-emerald-300">
             <p>© ২০২৬ নির্বাচন সচেতনতা প্ল্যাটফর্ম। সর্বস্বত্ব সংরক্ষিত।</p>
             <p className="flex items-center gap-2">
+              Developed by{' '}
+              <a
+                href="https://nishat.tickfest.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-emerald-100 font-semibold hover:text-white underline underline-offset-2 transition-colors"
+              >
+                Abid Khan Nishat
+              </a>
+            </p>
+            <p className="flex items-center gap-2">
               <span>🇧🇩</span>
               বাংলাদেশের জন্য তৈরি
             </p>

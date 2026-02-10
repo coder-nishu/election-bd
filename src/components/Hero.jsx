@@ -112,7 +112,7 @@ const Hero = () => {
           className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg text-base font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
         >
           <span>🗳️</span>
-          <span>ডেমো ভোট দিন</span>
+          <span>ভোট দিন</span>
         </a>
 
         {/* Demo Badge */}
